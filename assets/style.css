@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;700&display=swap');
+body{
+    background-image: linear-gradient(to bottom right, #0C0F07, #23183D);
+    width: 100%;
+    font-family: 'Baloo Bhaina 2';
+    margin: 5%;
+}
+#nav-bar{
+    display: grid;
+    grid-auto-flow: column;
+}
+u {
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    color: #9f7fdb;
+    text-decoration: none;
+}
+h1{
+    color: #9f7fdb;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+}
+section{
+    width: 100%;
+    display: flex;
+}
+#buttons{
+    display: grid;
+    grid-auto-flow: column;
+}
+input{
+    width: 470px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9F7FDB;
+
+    margin-top: 20px;
+}
+button{
+    margin-top: 20px;
+    padding: 22px 38px;
+    gap: 10px;
+    border-radius: 10px;
+    color: white;
+}
+#send{
+    background-color: #7834F3;
+}
+#more-info{
+    background: #9F7FDB;
+}
+.form-control small{
+    visibility: hidden;   
+    
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 12px;
+    line-height: 14px;
+
+    
+} 
+
+    /* Sucesso e erro  */
+
+.form-control.error small {
+    visibility: visible;
+    color: red;
+}
+
+
+#sucesso{
+    color:green;
+    margin-left: 330px;
+    margin-top: 10px;
+    
+}
+
+#erro{
+    color: red;
+    margin-left: 330px;
+    width: 300px;
+}
